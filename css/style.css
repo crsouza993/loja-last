@@ -9,7 +9,11 @@
 }
 :root{
 	--bg-color: #ffffff;
-	--text-color: #111111;
+	--text-color: #fffefe;
+    --text-color2: #dbd8d8;
+    --text-color3: #030202;
+
+
     --text-color1: #f30c0c;
 
 	--main-color: #f30c0c;
@@ -46,14 +50,14 @@ header{
 	display: flex;
 }
 .navlist a{
-	color: var(--text-color);
+	color: var(--text-color3);
 	font-weight: 600;
 	padding: 10px 25px;
 	font-size: var(--normal-font);
 	transition: all .36s ease;
 }
 .navlist a:hover{
-	color: var(--main-color);
+	color: var(--text-color);
 }
 .header-icons i{
 	font-size: 32px;
@@ -92,6 +96,11 @@ section{
 	line-height: 1.2;
 	letter-spacing: .6rem;
 	margin-bottom: 1.4rem;
+    position: absolute;
+    top: -126px;
+    color: var(--text-color2);
+
+    left: 220px;
 }
 .home-text span{
 	font-size: var(--h2-font);
@@ -102,6 +111,9 @@ section{
 	margin-bottom: 3rem;
 	letter-spacing: .2rem;
     background-color: rgb(181 175 159);
+    position: absolute;
+    top: 28px;
+    left: 231px;
 }
 .btn{
 	display: inline-block;
@@ -113,6 +125,9 @@ section{
 	font-weight: 600;
 	border-radius: 5px;
 	transition: all .35s ease;
+    position: absolute;
+    top: 87px;
+    left: 227px;
 }
 .btn:hover{
 	transform: translateY(-5px);
@@ -155,6 +170,7 @@ header.sticky{
 	font-size: 19px;
 	letter-spacing: 2px;
 	margin-bottom: 1rem;
+    color: var(--text-color3);
 }
 .fea-text p{
 	color: #555;
@@ -277,7 +293,7 @@ header.sticky{
 }
 
 .contact{
-	background: var(--text-color);
+	background: var(--text-color3);
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(200px, auto));
 	gap: 2rem;
@@ -324,7 +340,7 @@ header.sticky{
 .last-text{
 	text-align: center;
 	padding: 20px;
-	background: var(--text-color);
+	background: var(--text-color3);
 }
 .last-text p{
 	color: #555;
@@ -343,6 +359,20 @@ header.sticky{
 	padding: 14px;
 	background: var(--main-color);
 	border-radius: 2rem;
+}
+.btnn{
+    display: inline-block;
+	padding: 13px 25px;
+	background: var(--main-color);
+	color: var(--bg-color);
+	font-size: 15px;
+	letter-spacing: 1px;
+	font-weight: 600;
+	border-radius: 5px;
+	transition: all .35s ease;
+    position: absolute;
+    top: 292px;
+    left: 227px;
 }
 
 
