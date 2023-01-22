@@ -10,7 +10,9 @@
 :root{
 	--bg-color: #ffffff;
 	--text-color: #111111;
-	--main-color: #c8815f;
+    --text-color1: #f30c0c;
+
+	--main-color: #f30c0c;
 	--big-font: 4.5rem;
 	--h2-font: 3.3rem;
 	--h3-font: 2rem;
@@ -38,7 +40,7 @@ header{
 	font-size: 28px;
 	font-weight: 700;
 	letter-spacing: 1px;
-	color: var(--text-color);
+	color: var(--text-color1);
 }
 .navlist{
 	display: flex;
@@ -76,7 +78,7 @@ section{
 .home{
 	min-height: 100vh;
 	width: 100%;
-	background: url(../img/background.jpg);
+	background: url(../img/fea1.jpg);
 	background-size: cover;
 	background-position: center top;
 	position: relative;
@@ -99,6 +101,7 @@ section{
 	font-weight: 500;
 	margin-bottom: 3rem;
 	letter-spacing: .2rem;
+    background-color: rgb(181 175 159);
 }
 .btn{
 	display: inline-block;
@@ -188,7 +191,7 @@ header.sticky{
 .cta{
 	height: 60vh;
 	width: 100%;
-	background: url(../img/ffffc.png);
+	background: url(../img/tudo1.PNG);
 	background-size: cover;
 	background-position: center;
 	display: flex;
@@ -199,6 +202,7 @@ header.sticky{
 	font-weight: 500;
 	letter-spacing: .6px;
 	margin-bottom: 14px;
+    text-align: left;
 }
 .cta-text h4{
 	font-size: 3.3rem;
